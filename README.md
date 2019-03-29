@@ -6,4 +6,5 @@ https://docs.docker.com/engine/examples/dotnetcore/
 Commands:
 ---------
 docker build -t webapi .
+
 docker run -d -p 8181:80 webapi
