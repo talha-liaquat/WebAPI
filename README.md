@@ -8,3 +8,5 @@ Commands:
 docker build -t webapi .
 
 docker run -d -p 8181:80 webapi
+
+docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" cocky_mendeleev
